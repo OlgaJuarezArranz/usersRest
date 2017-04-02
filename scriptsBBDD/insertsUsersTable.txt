@@ -1,0 +1,14 @@
+INSERT INTO public.users(user_id, user_name, user_birthdate)
+	VALUES (1, 'Paco García', '07-11-1936');
+	
+INSERT INTO public.users(user_id, user_name, user_birthdate)
+	VALUES (2, 'Rosa Pérez', '07-01-1941');	
+	
+INSERT INTO public.users(user_id, user_name, user_birthdate)
+	VALUES (3, 'Manolo López', '18-05-1982');	
+	
+INSERT INTO public.users(user_id, user_name, user_birthdate)
+	VALUES (4, 'Carmen García', '18-07-2001');	
+	
+INSERT INTO public.users(user_id, user_name, user_birthdate)
+	VALUES (5, 'Pilar López', '22-06-1992');	

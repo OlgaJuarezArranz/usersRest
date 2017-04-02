@@ -1,0 +1,14 @@
+CREATE TABLE public.users
+(
+    user_id integer NOT NULL,
+    user_name character varying NOT NULL,
+    user_birthdate date NOT NULL,
+    PRIMARY KEY (user_id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.users
+    OWNER to simpledatabase;
